@@ -1,0 +1,53 @@
+Gestaltungsregeln für eine Website helfen dabei, eine ansprechende, benutzerfreundliche und funktionale Seite zu erstellen. Hier sind einige grundlegende Prinzipien:
+
+### **1. Layout & Struktur**
+- **Klare Hierarchie**: Inhalte sollten logisch gegliedert sein, damit Nutzer sich leicht zurechtfinden.
+- **Responsive Design**: Die Seite muss auf verschiedenen Geräten (Desktop, Tablet, Smartphone) gut aussehen.
+- **Whitespace nutzen**: Genügend Abstand zwischen Elementen verbessert die Lesbarkeit und Übersichtlichkeit.
+
+### **2. Farben & Kontraste**
+- **Farbschema**: Begrenzte Farbpalette (3–5 Farben) für ein harmonisches Erscheinungsbild.
+- **Kontraste beachten**: Wichtige Inhalte müssen sich deutlich abheben, besonders für Barrierefreiheit.
+- **Farbpsychologie nutzen**: Farben transportieren Emotionen (z. B. Blau = Vertrauen, Rot = Energie).
+
+### **3. Typografie**
+- **Lesbarkeit**: Verwenden Sie gut lesbare Schriften (Sans-Serif für digitale Medien).
+- **Schriftgrößen-Hierarchie**: Überschriften, Zwischenüberschriften und Fließtext klar voneinander unterscheiden.
+- **Zeilenlänge & Zeilenabstand**: Max. 60–80 Zeichen pro Zeile; ausreichender Abstand zwischen den Zeilen.
+
+### **4. Navigation & Benutzerführung**
+- **Einfache Navigation**: Nutzer sollten in maximal drei Klicks ihr Ziel erreichen.
+- **Konsistente Menüs**: Navigationselemente an derselben Stelle platzieren.
+- **Call-to-Action (CTA)**: Deutliche Handlungsaufforderungen („Jetzt kaufen“, „Mehr erfahren“).
+
+### **5. Bilder & Medien**
+- **Hochwertige Bilder**: Verwenden Sie professionelle, relevante Bilder statt generischer Stockfotos.
+- **Optimierung**: Bilder sollten für schnelle Ladezeiten komprimiert sein.
+- **Alt-Texte für Barrierefreiheit**: Alternative Bildbeschreibungen helfen Screenreadern.
+
+### **6. Ladezeit & Performance**
+- **Schnelle Ladezeiten**: Zu große Bilder oder unnötige Skripte vermeiden.
+- **Caching & Komprimierung**: HTML, CSS und JavaScript minimieren.
+- **Wenige HTTP-Anfragen**: Mehrere CSS- und JavaScript-Dateien zusammenfassen.
+
+### **7. Barrierefreiheit**
+- **Tastatur-Navigation**: Website sollte ohne Maus bedienbar sein.
+- **Screenreader-Unterstützung**: Klare Strukturen und ARIA-Labels verwenden.
+- **Farbenblindheit berücksichtigen**: Nicht nur Farben als Informationsträger nutzen.
+
+### **8. Konsistenz & Wiedererkennbarkeit**
+- **Corporate Design einhalten**: Logo, Farben, Schriften und Icons konsistent verwenden.
+- **Wiedererkennbare Stilelemente**: Nutzer sollen sich schnell an die Struktur gewöhnen.
+- **Feedback geben**: Klare Rückmeldungen bei Formulareingaben oder Fehlermeldungen.
+
+### **9. Datenschutz & Sicherheit**
+- **DSGVO beachten**: Impressum, Datenschutzerklärung und Cookie-Hinweis nicht vergessen.
+- **SSL-Verschlüsselung**: Sichere Verbindung durch HTTPS.
+- **Sichere Formulare**: Captchas und Schutzmechanismen gegen Spam und Hacks.
+
+### **10. Inhalte & SEO**
+- **Klare, verständliche Texte**: Keine komplizierten Fachbegriffe, kurze Sätze.
+- **SEO-Optimierung**: Relevante Keywords in Überschriften, Meta-Tags und Alt-Texten einbauen.
+- **Aktualität**: Regelmäßige Updates und Pflege der Inhalte.
+
+Soll ich für einen speziellen Website-Typ (z. B. Online-Shop, Blog, Portfolio) genauere Tipps geben? 😊
