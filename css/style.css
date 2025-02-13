@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 .Title {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px #1e1e1e;
     margin: 20px 0;
     font-size: 2rem;
 }
