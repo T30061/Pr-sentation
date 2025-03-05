@@ -1,21 +1,30 @@
 body {
     background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
+@keyframes boxShadowChange {
+    0% {
+        box-shadow: 0 0 15px #ff99cc, 0 0 30px #ff99cc;
+    }
+    100% {
+        box-shadow: 0 0 15px #33ccff , 0 0 30px #33ccff ; /* Change to your desired end color */
+    }
+}
+
 .Title {
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px #ff99cc(0, 0, 0);
     font-size: 2rem;
-    color: #ffcc00;
+    color: #33ccff;
     background-color: #222;
     margin-left: 200px;
     margin-right: 200px;
     border-radius: 15px;
-    box-shadow: 0 0 15px #ffcc00, 0 0 30px #ffcc00;
+    animation: boxShadowChange 2s infinite alternate; /* Add animation */
 }
 
 .Erklärung, .Regeln, .Zusätzliche-Infos, .Colors {
@@ -33,14 +42,20 @@ body {
 }
 
 .roundedPic{
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    transition: box-shadow 0.5s ease;
+    text-shadow: 0 0 10px black;
+    font-size: 2rem;
+    color: #1ac5b7;
+    background-color: #222;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+    animation: boxShadowChange 1.7s infinite alternate;
+    
 }
 
 h3 {
-    color: #ffcc00;
-    text-shadow: 0 0 10px #ffcc00;
+    color: #33ccff;
+    text-shadow: 0 0 10px #ff99cc;
 }
 
 ul {
@@ -64,12 +79,16 @@ footer {
     transition: filter 0.5s ease;
 }
 
-.Erklärung:hover, .Regeln:hover , .Zusätzliche-Infos:hover , .Colors:hover,.roundedPic:hover,footer:hover{
-    box-shadow: 0 0 30px #ffcc00;
-    filter: blur(0);
+@keyframes colorChange {
+    0% {
+        color: #ff99cc;
+    }
+    100% {
+        color: #33ccff;
+    }
 }
 
-b{
-    text-shadow: 0 0 10px #ffcc00;
-    
+b {
+    text-shadow: 0 0 10px #11b4e6;
+    animation: colorChange 2s infinite alternate; 
 }
