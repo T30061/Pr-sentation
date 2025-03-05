@@ -2,4 +2,4 @@
 
 ## Made by
 - Teddy_com
-- Hyrax
+- Hyerax
